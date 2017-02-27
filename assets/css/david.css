@@ -1,0 +1,33 @@
+/*Service Times*/
+
+.introModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedule p {
+  border-bottom: 1px solid;
+}
+
+.days {
+  display: flex;
+}
+
+.day {
+  width: 100px;
+}
+
+.times {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.details :first-Child{
+  width: 9rem;
+}
