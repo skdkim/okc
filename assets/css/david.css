@@ -36,5 +36,17 @@
 
 .cross {
   position: relative;
-  top: 30px;
+  top: 70px;
+}
+
+@media screen and (max-width: 1680px) {
+  .cross {
+    top:38px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .cross {
+    top: 5px;
+  }
 }
