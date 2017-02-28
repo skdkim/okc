@@ -31,3 +31,10 @@
 .details :first-Child{
   width: 9rem;
 }
+
+/*Splash Page*/
+
+.cross {
+  position: relative;
+  top: 30px;
+}
