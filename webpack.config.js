@@ -24,6 +24,10 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
+        test: /\.png/,
+        loader: "url-loader?limit=100000&minetype=image/png"
+      },
+      {
         test: /\.(jpe?g|gif|png)$/,
         loader: 'file-loader?emitFile=false&name=[path][name].[ext]'
      }
