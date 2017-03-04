@@ -25,6 +25,10 @@ class Header extends React.Component {
           </ul>
         </nav>
         </header>
+
+        <footer id="footer">
+          <p></p>
+        </footer>
       </div>
     );
   }
