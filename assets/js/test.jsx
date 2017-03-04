@@ -1,9 +1,19 @@
 import React from 'react';
+import Test2 from './test2';
+import Test3 from './test3';
 
-function Test(props){
-  return(
-    <h1>Hello</h1>
-  );
+class Test extends React.Component{
+  constructor(){
+    super();
+  }
+  render(){
+    return(
+      <div>
+        <Test2 />
+        <Test3 />
+      </div>
+    );
+  }
 }
 
 export default Test;

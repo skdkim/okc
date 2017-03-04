@@ -1,12 +1,13 @@
 // require('../css/main.css');
-// require('../css/david.css');
+require('../css/david.css');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header';
 import Test from './test';
+// import Test3 from './test3';
+import Header from './header';
 
 ReactDOM.render(
-  <Test />,
+  <Header />,
   document.getElementById('wrapper')
 );
