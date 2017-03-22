@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Service from './service';
 
 class Header extends React.Component {
   render(){
@@ -25,6 +26,9 @@ class Header extends React.Component {
           </ul>
         </nav>
         </header>
+
+        <Service />
+
 
         <footer id="footer">
           <p></p>
