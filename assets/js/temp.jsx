@@ -1,5 +1,5 @@
 <!-- Header -->
-  <!-- <header id="header">
+  <header id="header">
     <div class="logo">
       <span class="icon">
         <img class="cross" src="./images/cross.png" alt="">
@@ -21,7 +21,7 @@
         <!--<li><a href="#elements">Elements</a></li>-->
       <!-- </ul>
     </nav>
-  </header> -->
+  </header>
 
 <!-- Main -->
   <div id="main">

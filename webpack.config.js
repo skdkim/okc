@@ -1,13 +1,13 @@
 var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
   entry: "./assets/js/entry.jsx",
   output: {
-    // path: __dirname + "/js",
-    filename: "./assets/js/entry.min.js"
+    filename: "bundle.js"
   },
   module: {
     loaders: [
@@ -22,6 +22,10 @@ module.exports = {
       {
         test: [/\.css?$/],
         loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.png/,
+        loader: "url-loader?limit=100000&minetype=image/png"
       },
       {
         test: /\.(jpe?g|gif|png)$/,
