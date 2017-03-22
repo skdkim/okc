@@ -7,5 +7,5 @@ import Header from './header';
 
 ReactDOM.render(
   <Header />,
-  document.getElementById('container')
+  document.getElementById('wrapper')
 );

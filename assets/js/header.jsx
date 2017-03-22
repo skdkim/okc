@@ -2,6 +2,10 @@
 import React from 'react';
 import Service from './service';
 
+const mainDivStyle = {
+  display: 'none'
+};
+
 class Header extends React.Component {
   render(){
     return (
@@ -27,7 +31,9 @@ class Header extends React.Component {
         </nav>
         </header>
 
-        <Service />
+        <div id="main" style={mainDivStyle}>
+          <Service />
+        </div>
 
 
         <footer id="footer">
