@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Service from './service';
+import Location from './location';
 
 const mainDivStyle = {
   display: 'none'
@@ -33,6 +34,7 @@ class Header extends React.Component {
 
         <div id="main" style={mainDivStyle}>
           <Service />
+          <Location />
         </div>
 
 
