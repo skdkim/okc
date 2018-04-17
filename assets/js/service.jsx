@@ -2,7 +2,7 @@ import React from 'react';
 
 function Service(props){
   return (
-  <article id="intro">
+  <article id="time">
     <div className="introModal">
       <h2 className="major">Service Times</h2>
       <div className="schedule">
