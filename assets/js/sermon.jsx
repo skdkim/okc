@@ -4,9 +4,9 @@ const iframeStyle = {
   border: 0
 };
 
-function Location(props){
+function Sermon(props){
   return (
-    <article id="location">
+    <article id="work">
       <div className="introModal">
         <h2 className="major">Location</h2>
         <iframe className="location"
@@ -17,4 +17,4 @@ function Location(props){
   );
 }
 
-export default Location;
+export default Sermon;

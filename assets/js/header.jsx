@@ -2,6 +2,7 @@
 import React from 'react';
 import Service from './service';
 import Location from './location';
+import Sermon from './sermon';
 
 const mainDivStyle = {
   display: 'none'
@@ -26,8 +27,9 @@ class Header extends React.Component {
         </div>
         <nav>
           <ul>
-            <li><a href="#intro">Service</a></li>
-            <li><a href="#work">Location</a></li>
+            <li><a href="#time">Service</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#sermon">Sermon</a></li>
           </ul>
         </nav>
         </header>
