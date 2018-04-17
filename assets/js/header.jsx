@@ -37,6 +37,7 @@ class Header extends React.Component {
         <div id="main" style={mainDivStyle}>
           <Service />
           <Location />
+          <Sermon />
         </div>
 
 
