@@ -36,6 +36,13 @@ body {
   width: 9rem;
 }
 
+#sermonVid {
+  /* width: 40rem; */
+  width: 100%;
+  /* height: 100%; */
+  /* height: 30rem; */
+}
+
 /*Splash Page*/
 
 .cross {
