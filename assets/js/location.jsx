@@ -6,7 +6,7 @@ const iframeStyle = {
 
 function Location(props){
   return (
-    <article id="work">
+    <article id="location">
       <div className="introModal">
         <h2 className="major">Location</h2>
         <iframe className="location"
