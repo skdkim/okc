@@ -8,10 +8,11 @@ function Sermon(props){
   return (
     <article id="sermon">
       <div className="introModal">
-        <h2 className="major">Sermon</h2>
-        <iframe className="location"
-          src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"
-          frameBorder="0" style={iframeStyle} allowFullScreen></iframe>      </div>
+        <h2 className="major" id="sermon" >Sermon</h2>
+        <iframe classname="location" id="sermonVid" width="560" height="315" 
+          src="https://www.youtube.com/embed/YK0NlFvDc2I?rel=0"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </article>
   );
 }
