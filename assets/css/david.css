@@ -1,9 +1,5 @@
 /*Service Times*/
 
-body {
-  overflow: hidden;
-}
-
 .introModal {
   display: flex;
   flex-direction: column;
