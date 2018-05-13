@@ -10,7 +10,7 @@ function Sermon(props){
       <div className="introModal">
         <h2 className="major" id="sermon" >Sermon</h2>
         <iframe className="location" id="sermonVid" width="560" height="315"
-          src="https://www.youtube.com/embed/edsyf7po4F0?rel=0"
+          src="https://www.youtube.com/embed/pdjEsy3GfE4?rel=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
     </article>
