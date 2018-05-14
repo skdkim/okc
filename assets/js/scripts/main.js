@@ -303,7 +303,6 @@
 							.on('click', function() {
 								location.hash = '';
 								pauseVideo();
-								console.log("Close Button Clicked **********");
 							});
 
 					// Prevent clicks from inside article from bubbling.
@@ -317,8 +316,10 @@
 				$body.on('click', function(event) {
 
 					// Article visible? Hide.
-						if ($body.hasClass('is-article-visible'))
+						if ($body.hasClass('is-article-visible')){
 							$main._hide(true);
+							pauseVideo();
+						}
 
 				});
 

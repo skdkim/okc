@@ -12,7 +12,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('sermonVid', {
     height: '315',
     width: '560',
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'pdjEsy3GfE4',
     playerVars: {
       'rel': 0
     },
@@ -35,7 +35,6 @@ function onYouTubeIframeAPIReady() {
 //    the player should play for six seconds and then stop.
 
 function pauseVideo(){
-  console.log("Paused Video **************");
   player.pauseVideo();
 }
 
