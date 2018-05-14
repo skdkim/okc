@@ -302,6 +302,8 @@
 							.appendTo($this)
 							.on('click', function() {
 								location.hash = '';
+								pauseVideo();
+								console.log("Close Button Clicked **********");
 							});
 
 					// Prevent clicks from inside article from bubbling.
