@@ -17,10 +17,10 @@ function onYouTubeIframeAPIReady() {
       'rel': 0
     },
     // dont want to start any events at the moment
-    // events: {
-    //   'onReady': onPlayerReady,
-    //   'onStateChange': onPlayerStateChange
-    // }
+    events: {
+      // 'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
   });
 }
 
@@ -33,6 +33,10 @@ function onYouTubeIframeAPIReady() {
 // 5. The API calls this function when the player's state changes.
 //    The function indicates that when playing a video (state=1),
 //    the player should play for six seconds and then stop.
+function onPlayerStateChange(event) {
+  console.log(event.data);
+  return event.data;
+}
 
 function pauseVideo(){
   player.pauseVideo();
@@ -40,4 +44,8 @@ function pauseVideo(){
 
 function stopVideo() {
   player.stopVideo();
+}
+
+function playVideo() {
+  player.playVideo();
 }

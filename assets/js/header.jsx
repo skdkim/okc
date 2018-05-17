@@ -9,7 +9,33 @@ const mainDivStyle = {
 };
 
 class Header extends React.Component {
+  constructor(props){
+    super(props);
+    this.handlePauseClick = this.handlePauseClick.bind(this);
+    this.handlePlayClick = this.handlePlayClick.bind(this);
+  }
 
+  handlePauseClick(e){
+    e.preventDefault();
+    pauseVideo();
+    console.log(onPlayerStateChange(e));
+    console.log("Clicked pause OKC title on home page *************");
+  }
+
+  handlePlayClick(){
+    playVideo();
+    console.log("Clicked play OKC title on home page *************");
+  }
+
+  // handleToggleClick(){
+  //   if
+  // }
+  // -1 (unstarted)
+  // 0 (ended)
+  // 1 (playing)
+  // 2 (paused)
+  // 3 (buffering)
+  // 5 (video cued).
   render(){
     return (
       <div id="wrapper">
@@ -21,8 +47,8 @@ class Header extends React.Component {
           </div>
           <div className="content">
             <div className="inner">
-              <h1>Oxnard Korean Church</h1>
-              <p>사랑하는 자여 네 영혼이 잘 됨같이 네가 범사에 잘 되고 <br />
+              <h1 onClick={this.handlePauseClick(e)}>Oxnard Korean Church</h1>
+              <p onClick={this.handlePlayClick}>사랑하는 자여 네 영혼이 잘 됨같이 네가 범사에 잘 되고 <br />
               강건하기를 내가 간구하노라 (요한삼서 1:2)</p>
           </div>
         </div>
