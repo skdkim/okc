@@ -4,7 +4,7 @@ function Service(props){
   return (
   <article id="time">
     <div className="introModal">
-      <h2 className="major">Service Times</h2>
+      <h2 className="major">예배 안내</h2>
       <div className="schedule">
         <div className="days">
           <div className="day">

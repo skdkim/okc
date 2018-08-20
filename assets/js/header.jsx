@@ -28,9 +28,9 @@ class Header extends React.Component {
         </div>
         <nav>
           <ul>
-            <li><a href="#time">Service</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#sermon">Sermon</a></li>
+            <li><a href="#time">예배 안내</a></li>
+            <li><a href="#location">약도</a></li>
+            <li><a href="#sermon">설교</a></li>
           </ul>
         </nav>
         </header>
