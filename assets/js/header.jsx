@@ -29,7 +29,7 @@ class Header extends React.Component {
         <nav>
           <ul>
             <li><a href="#time">예배 안내</a></li>
-            <li><a href="#location">약도</a></li>
+            <li><a href="#location">위치</a></li>
             <li><a href="#sermon">설교</a></li>
           </ul>
         </nav>
