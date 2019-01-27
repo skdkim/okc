@@ -9,7 +9,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('sermonVid', {
     height: '315',
     width: '560',
-    videoId: '2szE8pQ9m1g',
+    videoId: '4ubDNd-YQCU',
     playerVars: {
       'rel': 0
     },
